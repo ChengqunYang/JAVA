@@ -1,0 +1,29 @@
+package servlet;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import dao.StudentDao;
+import impl.StudentDaoImpl;
+
+/**
+ * Servlet implementation class StudentListServlet
+ * 负责查询所有的学生信息,然后呈现到lsit.jsp页面上.
+ */
+public class StudentListServlet extends HttpServlet {
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		StudentDao dao = new StudentDaoImpl();
+		List<Student> list = dao.findAll();
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+		doGet(request, response);
+	}
+
+}

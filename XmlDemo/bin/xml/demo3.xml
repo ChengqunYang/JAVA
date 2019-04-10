@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stus>
+	<stu>
+		<!-- xml解析：
+				常用的有两种方式:
+					DOM:(document object model)
+						把所有的内容读到内存中,形成一个树状结构,
+						整个树状结构称之为一个对象(document)
+						其中的标签称之为元素(element)
+						属性叫(attribute)
+						其中的文本称为(text)
+						这四个都是对象,都可以称为Node节点
+						如果xml文档很大,可能造成内存溢出,可以对文档进行增删操作
+					SAX:(simple API for xml)
+						基于事件驱动,读取一行,解析一行.
+						不会造成内存溢出.
+				一些组织或者公司针对以上两种解析方式,给出的解析方法有哪些?
+						jaxp　　　sun公司,比较繁琐
+						jdom
+						dom4j   使用比较广泛
+		-->
+	</stu>
+</stus>

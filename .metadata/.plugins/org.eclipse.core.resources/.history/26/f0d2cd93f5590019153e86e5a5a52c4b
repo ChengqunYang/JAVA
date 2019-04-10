@@ -1,0 +1,20 @@
+package service;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import domain.Student;
+
+public interface StudentService {
+	
+	
+	/**
+	 * 这是学生的业务处理规则
+	 * @return List<Student>
+	 */
+	/*
+	 * Dao只针对单一的逻辑,数据操作层面
+	 * Service 是业务的层面
+	 */
+	List<Student> findAll() throws SQLException;
+}

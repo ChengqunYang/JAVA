@@ -1,0 +1,35 @@
+package structure;
+
+import java.util.Scanner;
+
+//Switch分支会根据case的值，来选择相应的语句完成
+//如果没有break语句或者已经到结尾，会执行后面的语句
+//default语句比较特殊，其可以写作case的任何位置，所以为了保险起见，后面要加break语句
+//case的值所取的数据类型为 char byte short int 枚举（泛型） String（JDK1.7）
+//case后面的只能取值，不能取范围
+public class TestSwitch0 {
+	public static void main(String[] args) {
+		//int i = 8;
+		String str;
+		Scanner sr = new Scanner(System.in);
+		str = sr.next();
+		switch(str) {
+		
+			case "a" :
+				System.out.println("A");
+				break;
+			case "b" :
+				System.out.println("B");
+			case "c" :
+				System.out.println("C");
+				//break;
+			case "d" :
+				System.out.println("D");
+				break;
+			default:
+				System.out.println("error");
+		}
+		sr.close();
+	}
+	
+}

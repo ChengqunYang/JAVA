@@ -1,0 +1,5 @@
+package objectio;
+
+public class ObjectOutputStreamDemo {
+
+}

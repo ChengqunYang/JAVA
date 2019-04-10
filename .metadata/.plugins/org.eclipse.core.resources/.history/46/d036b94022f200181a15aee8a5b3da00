@@ -1,0 +1,32 @@
+package objectio;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.util.ArrayList;
+
+/*
+ * 解决对象输入流读取对象出现异常的问题
+ */
+public class ObjectOutputStreamDemo2 {
+	public static void main(String[] args) throws IOException {
+		method();
+	}
+
+	private static void method() throws IOException, FileNotFoundException {
+		//创建对象输出流对象
+		ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("b.txt"));
+		//创建集合对象
+		ArrayList<Student> list = new ArrayList<Student>();
+		
+		//添加学生对象
+		list.add(new Student("张三",10));
+		list.add(new Student("李四",15));
+		list.add(new Student("王五",20));
+		//写出集合对象
+		oos.writeObject(list);
+		//释放资源
+		oos.close();
+	}
+}

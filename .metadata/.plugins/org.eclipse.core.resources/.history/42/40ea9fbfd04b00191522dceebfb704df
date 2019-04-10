@@ -1,0 +1,19 @@
+package jdbc.util;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+public class TestPool {
+	public void testPool() {
+		try {
+			MyDataSource dataSource = new MyDataSource();
+			Connection conn = dataSource.getConnection();
+			String sql = "insert into account values(null,'wangwu',200)";
+			conn.prepareStatement(sql);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+}

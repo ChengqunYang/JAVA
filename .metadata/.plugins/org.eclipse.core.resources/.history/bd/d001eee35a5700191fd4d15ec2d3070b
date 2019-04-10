@@ -1,0 +1,22 @@
+package impl;
+
+import java.util.List;
+
+import dao.StudentDao;
+import domain.Student;
+
+/**
+ * 这是StudentDao的实现,针对前面定义的规范,写出具体的实现
+ * @author DELL
+ *
+ */
+public class StudentDaoImpl implements StudentDao {
+
+	/**
+	 * 查询所有的学生
+	 */
+	@Override
+	public List<Student> findAll() {
+		return null;
+	}
+}
