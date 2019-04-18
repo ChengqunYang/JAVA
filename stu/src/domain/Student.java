@@ -2,7 +2,7 @@ package domain;
 
 
 /**
- * 这是学生对象封装的bean
+ * 这是单个学生对象封装的bean
  * @author DELL
  *
  */
@@ -15,6 +15,16 @@ public class Student {
 	public Student(String sname, String gender, String phone, String hobby, String info, String birthday) {
 		super();
 
+		this.sname = sname;
+		this.gender = gender;
+		this.phone = phone;
+		this.hobby = hobby;
+		this.info = info;
+		this.birthday = birthday;
+	}
+	public Student(int sid ,String sname, String gender, String phone, String hobby, String info, String birthday) {
+		super();
+		this.sid = sid;
 		this.sname = sname;
 		this.gender = gender;
 		this.phone = phone;

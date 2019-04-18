@@ -1,7 +1,0 @@
-package impl;
-
-import dao.StudentDao;
-
-public class StudentDaoImpl implements StudentDao {
-	
-}

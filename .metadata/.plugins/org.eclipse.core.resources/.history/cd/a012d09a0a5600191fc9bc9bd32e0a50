@@ -1,9 +1,0 @@
-package domain;
-/**
- * 这是学生对象封装的bean
- * @author DELL
- *
- */
-public class Student {
-
-}

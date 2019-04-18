@@ -5,7 +5,6 @@ INDEX VERSION 1.3+C:\Users\DELL\Desktop\java¡∑œ∞\.metadata\.plugins\org.eclipse.
 983264027.index
 2888432637.index
 1297571821.index
-1297571821.index
 1118454270.index
 1976448031.index
 2635366478.index
