@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.Map.Entry"/>
-<fullyQualifiedTypeName name="java.io.FileReader"/>
-<fullyQualifiedTypeName name="mudp.InetAddressDemo"/>
-<fullyQualifiedTypeName name="javax.xml.crypto.Data"/>
-<fullyQualifiedTypeName name="java.net.DatagramSocket"/>
-<fullyQualifiedTypeName name="java.net.DatagramPacket"/>
-<fullyQualifiedTypeName name="java.net.InetAddress"/>
 <fullyQualifiedTypeName name="java.io.OutputStream"/>
 <fullyQualifiedTypeName name="java.net.ServerSocket"/>
 <fullyQualifiedTypeName name="java.net.Socket"/>
@@ -16,7 +8,6 @@
 <fullyQualifiedTypeName name="banking.Employee"/>
 <fullyQualifiedTypeName name="java.util.Properties"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="banking.Sqloperate"/>
 <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
@@ -52,12 +43,21 @@
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="org.apache.commons.dbutils.QueryRunner"/>
-<fullyQualifiedTypeName name="org.apache.commons.dbutils.handlers.BeanListHandler"/>
 <fullyQualifiedTypeName name="util.JDBCUtil"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="dao.StudentDao"/>
-<fullyQualifiedTypeName name="domain.Student"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="servlet.StudentListServlet"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.CharSequence"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.TextUI"/>
+<fullyQualifiedTypeName name="util.TextUtils"/>
+<fullyQualifiedTypeName name="org.apache.commons.dbutils.handlers.BeanListHandler"/>
+<fullyQualifiedTypeName name="domain.Student"/>
+<fullyQualifiedTypeName name="service.impl.StudentServiceImpl"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="domain.PageBean"/>
+<fullyQualifiedTypeName name="org.apache.commons.dbutils.handlers.ScalarHandler"/>
+<fullyQualifiedTypeName name="dao.StudentDao"/>
 <fullyQualifiedTypeName name="service.StudentService"/>
 </qualifiedTypeNameHistroy>
