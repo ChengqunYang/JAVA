@@ -1,0 +1,20 @@
+package dao.impl;
+
+import org.apache.commons.dbutils.QueryRunner;
+
+import dao.UserDao;
+import util.JDBCUtil;
+
+public class UserDaoImpl  implements UserDao{
+
+	public boolean checkuserName(String username) {
+		
+		QueryRunner runner = new QueryRunner(JDBCUtil.getDataSource());
+		
+		String sql = "select * from user where username = ?";
+		
+		runner.query(sql, rsh,username);
+		return false;
+	}
+
+}

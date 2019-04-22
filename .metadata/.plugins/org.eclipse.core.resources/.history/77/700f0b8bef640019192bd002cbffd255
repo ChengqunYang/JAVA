@@ -1,0 +1,10 @@
+package dao;
+
+public interface UserDao {
+	/**
+	 * 用于检测用户名是否存在
+	 * @param username
+	 * @return true: 存在   false:不存在
+	 */
+	boolean checkuserName(String username);
+}
