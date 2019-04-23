@@ -29,4 +29,14 @@
     <servlet-name>CheckUserNameServlet</servlet-name>
     <url-pattern>/CheckUserNameServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DemoServlet02</display-name>
+    <servlet-name>DemoServlet02</servlet-name>
+    <servlet-class>servlet.DemoServlet02</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DemoServlet02</servlet-name>
+    <url-pattern>/DemoServlet02</url-pattern>
+  </servlet-mapping>
 </web-app>

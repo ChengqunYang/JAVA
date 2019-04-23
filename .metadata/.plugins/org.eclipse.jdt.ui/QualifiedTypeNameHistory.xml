@@ -43,7 +43,6 @@
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="org.apache.commons.dbutils.QueryRunner"/>
-<fullyQualifiedTypeName name="util.JDBCUtil"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="servlet.StudentListServlet"/>
@@ -60,4 +59,5 @@
 <fullyQualifiedTypeName name="org.apache.commons.dbutils.handlers.ScalarHandler"/>
 <fullyQualifiedTypeName name="dao.StudentDao"/>
 <fullyQualifiedTypeName name="service.StudentService"/>
+<fullyQualifiedTypeName name="util.JDBCUtil"/>
 </qualifiedTypeNameHistroy>

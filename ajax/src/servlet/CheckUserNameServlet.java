@@ -26,7 +26,7 @@ public class CheckUserNameServlet extends HttpServlet {
 			// 1.检查是否存在
 			String name = request.getParameter("name");  //接收客户端发送过来的数据(接收请求)
 			
-			System.out.println("name"+name);
+			//System.out.println("name"+name);
 			
 			UserDao dao = new UserDaoImpl();
 

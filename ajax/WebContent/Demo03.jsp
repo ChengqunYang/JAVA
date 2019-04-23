@@ -58,7 +58,7 @@
 	<table border="1" width="500px">
 		<tr>
 			<td>用户名:</td>
-			<td><input type="text" name="name" id="name" onblur = "checkUserName()"></td><span id="span01"></span>
+			<td><input type="text" name="name" id="name" onblur = "checkUserName()"><span id="span01"></span></td>
 		</tr>
 
 		<tr>
