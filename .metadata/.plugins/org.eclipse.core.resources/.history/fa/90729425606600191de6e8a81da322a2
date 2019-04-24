@@ -1,0 +1,14 @@
+package test02;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+//自定义注解,相当于Junit@Test
+
+@Retention(RetentionPolicy.RUNTIME)  //注解的注解(元注解)
+//定义注解的时候,需要通过元注解RetentionPolicy.RUNTIME
+public @interface MyTest {
+	//在MyTest注解中定义成员属性,默认值为-1
+	public long timeout() default -1;
+
+}

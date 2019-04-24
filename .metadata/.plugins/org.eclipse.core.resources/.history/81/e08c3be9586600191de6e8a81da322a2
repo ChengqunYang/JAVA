@@ -1,0 +1,6 @@
+package test01;
+	
+	//使用自定义注解
+public class TestUserAnnotation {
+
+}

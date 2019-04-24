@@ -1,0 +1,11 @@
+package test02;
+
+public class UserDao {
+	@MyTest
+	public void addUser(){};
+	@MyTest
+	public void delUser(){};
+	@MyTest
+	public void uptUser(){};
+	public void getUser(){};
+}

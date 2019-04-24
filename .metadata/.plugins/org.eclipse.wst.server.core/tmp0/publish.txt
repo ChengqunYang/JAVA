@@ -1,6 +1,7 @@
 #Tomcat publish data
-#Tue Apr 23 19:35:59 CST 2019
+#Wed Apr 24 14:49:51 CST 2019
+org.eclipse.jst.jee.server\:annotation=D\:\\\u8F6F\u4EF6\u5927\u5168\\eclipse\\apache-tomcat-7.0.93\\wtpwebapps\\annotation
 org.eclipse.jst.jee.server\:stu=D\:\\\u8F6F\u4EF6\u5927\u5168\\eclipse\\apache-tomcat-7.0.93\\wtpwebapps\\stu
 org.eclipse.jst.jee.server\:ajax=D\:\\\u8F6F\u4EF6\u5927\u5168\\eclipse\\apache-tomcat-7.0.93\\wtpwebapps\\ajax
-org.eclipse.jst.jee.server\:helloWeb=D\:\\\u8F6F\u4EF6\u5927\u5168\\eclipse\\apache-tomcat-7.0.93\\wtpwebapps\\helloWeb
 org.eclipse.jst.jee.server\:helloServlet=D\:\\\u8F6F\u4EF6\u5927\u5168\\eclipse\\apache-tomcat-7.0.93\\wtpwebapps\\helloServlet
+org.eclipse.jst.jee.server\:helloWeb=D\:\\\u8F6F\u4EF6\u5927\u5168\\eclipse\\apache-tomcat-7.0.93\\wtpwebapps\\helloWeb

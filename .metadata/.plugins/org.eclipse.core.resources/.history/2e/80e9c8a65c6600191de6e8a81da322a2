@@ -1,0 +1,10 @@
+package test02;
+
+public class MyJunit {
+
+	public static void main(String[] args) {
+		//加载UserDao.class字节码文件中的方法,判断哪些方法上面有自定义的注解@MyTest,如果当前的方法有@MyTest,执行,否则不执行
+
+		//1.将UserDao.class字节码文件加载到内存,class对象
+	}
+}
