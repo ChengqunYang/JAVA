@@ -1,0 +1,39 @@
+package dynamicagent;
+
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+/**
+ * 因为装饰者模式有弊端(当一个被装饰的类有很多方法时一个一个实现很麻烦)
+ * 所以我们采用动态代理模式(我们手动的让jdk在内存里创建装饰类)
+ * 
+ */
+import java.lang.reflect.Proxy;
+
+public class TestCar {
+	public static void main(String[] args) {
+		/**
+		 * 第一个参数: 固定值,告诉虚拟机用哪个字节码加载器加载内存中创建出的字节码文件
+		 * 第二个参数: 告诉虚拟机,内存中正在被创建的字节码文件中应该有哪些方法
+		 */
+		Icar car = (Icar) Proxy.newProxyInstance(TestCar.class.getClassLoader(), GoogleCar.class.getInterfaces(), new InvocationHandler(){
+			
+			@Override
+			public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+				//method代表当前正在执行的每个方法
+				
+				if(method.getName().equalsIgnoreCase("start")){
+					System.out.println("检查天气是否良好");
+					method.invoke(new GoogleCar(), args);
+					System.out.println("检查路况是否拥堵");
+				}else{
+					method.invoke(new GoogleCar(), args);
+				}
+	
+				return null;
+			}
+		});
+		car.start();
+		car.run();
+		car.stop();
+	}
+}

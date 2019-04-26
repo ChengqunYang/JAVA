@@ -1,0 +1,47 @@
+package dynamicagent;
+
+import java.io.IOException;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+
+import javax.servlet.Filter;
+import javax.servlet.FilterChain;
+import javax.servlet.FilterConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.http.HttpServletRequest;
+
+public class EncodingFilter implements Filter {
+
+    public EncodingFilter() {
+    }
+	public void destroy() {
+	}
+	public void init(FilterConfig fConfig) throws ServletException {
+	}
+
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+		//让request对象转换为HttpServletRequest
+		HttpServletRequest req = (HttpServletRequest)request;
+		//让JDK在内存中生成代理对象:增强了req对象上的getParameter(name); API
+		HttpServletRequest myReq = (HttpServletRequest)Proxy.newProxyInstance(EncodingFilter.class.getClassLoader(), req.getClass().getInterfaces(), new InvocationHandler() {
+			
+			@Override
+			public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+				if(method.getName().equalsIgnoreCase("getParameter")){
+					//1.获取本次请求的方式:
+					String md = req.getMethod()''
+					method.invoke(req, args);
+				}else {
+					method.invoke(req, args);
+				}
+				return null;
+			}
+		});
+		
+		 //将代理对象放行
+		chain.doFilter(myReq, response);  
+	}
+}

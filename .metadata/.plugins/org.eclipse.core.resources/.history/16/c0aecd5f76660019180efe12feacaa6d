@@ -1,0 +1,9 @@
+package singleton;
+/**
+ * 单例模式:懒汉式
+ * @author DELL
+ *
+ */
+public class Stu01 {
+
+}

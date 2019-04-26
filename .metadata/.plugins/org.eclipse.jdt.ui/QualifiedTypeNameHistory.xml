@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.net.Socket"/>
-<fullyQualifiedTypeName name="banking.Customerslogin"/>
-<fullyQualifiedTypeName name="banking.Login"/>
-<fullyQualifiedTypeName name="banking.Employee"/>
-<fullyQualifiedTypeName name="java.util.Properties"/>
-<fullyQualifiedTypeName name="java.sql.ResultSet"/>
-<fullyQualifiedTypeName name="banking.Sqloperate"/>
-<fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
@@ -60,4 +52,12 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.lang.Deprecated"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="test01.MyAnno01"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Target"/>
+<fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
+<fullyQualifiedTypeName name="decorator.Icar"/>
+<fullyQualifiedTypeName name="decorator.GoogleCar"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Proxy"/>
+<fullyQualifiedTypeName name="java.lang.reflect.InvocationHandler"/>
 </qualifiedTypeNameHistroy>

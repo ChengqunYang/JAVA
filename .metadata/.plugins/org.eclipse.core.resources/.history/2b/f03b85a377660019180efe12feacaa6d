@@ -1,0 +1,23 @@
+package singleton;
+
+/**
+ * 单例模式:懒汉式
+ * @author DELL
+ *
+ */
+public class Stu01 {
+	private Stu01() {
+		
+	}
+	//将构造方法私有化,就不能再new该类的对象了
+	private static Stu01 stu01;
+	
+	public static Stu01 getStu01() {
+		if(stu01 == null){
+			stu01 = new Stu01();
+		}
+		return stu01;
+		
+	}
+
+}

@@ -13,7 +13,7 @@
 		必需的 URL 参数规定您希望请求的 URL。
 		可选的 callback 参数是请求成功后所执行的函数名。
 		 */
-		$.get("/ajax/DemoServlet02",function(data, status){
+		$.get("/ajax/DemoServlet02",{name : "zhangsan",age : 20},function(data, status){
 			//alert("结果是:"+data);
 			//$("#div01").val();//val用于设置元素里面有values 的属性值
 			$("#div01").html(data); //设置或返回所选元素的内容（包括 HTML 标记）

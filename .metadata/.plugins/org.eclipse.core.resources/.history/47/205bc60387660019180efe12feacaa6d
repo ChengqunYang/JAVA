@@ -1,0 +1,19 @@
+package dynamicagent;
+
+import java.lang.reflect.InvocationHandler;
+/**
+ * 因为装饰者模式有弊端(当一个被装饰的类有很多方法时一个一个实现很麻烦)
+ * 所以我们采用动态代理模式(我们手动的让jdk在内存里创建装饰类)
+ * 
+ */
+import java.lang.reflect.Proxy;
+
+public class TestCar {
+	public static void main(String[] args) {
+		Proxy.newProxyInstance(TestCar.class.getClassLoader(), GoogleCar.class.getInterfaces(), new InvocationHandler());
+	}
+}
+
+class MyCC implements InvocationHandler{
+	
+}

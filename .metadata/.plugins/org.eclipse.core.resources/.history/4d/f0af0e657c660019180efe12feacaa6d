@@ -1,0 +1,11 @@
+package decorator;
+
+/**
+ * 对googlecar功能的增强
+ * 我想要的car是什么样子的?
+ * @author DELL
+ *
+ */
+public class MyCar Icar{
+
+}

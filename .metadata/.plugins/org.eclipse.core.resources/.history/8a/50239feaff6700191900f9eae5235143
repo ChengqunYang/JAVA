@@ -1,0 +1,35 @@
+package dynamicagent;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class ServletDemo
+ */
+
+/**
+ * 动态代理解决全站乱码问题:
+ * 无论是get方式还是post方式执行下面语句不存在中文乱码问题
+ * @author DELL
+ *
+ */
+public class ServletDemo extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+      
+    public ServletDemo() {
+        super();
+    }
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String um = request.getParameter("username");
+		System.out.println(um);
+	}
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String um = request.getParameter("username");
+		System.out.println(um);
+	}
+
+}

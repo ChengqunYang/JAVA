@@ -1,0 +1,12 @@
+package dynamicagent;
+
+import decorator.GoogleCar;
+
+public class GetInterfaces {
+	public static void main(String[] args) {
+		Class<?>[] classes = GoogleCar.class.getInterfaces();
+		for (Class<?> cla: classes) {
+			
+		}
+	}
+}
