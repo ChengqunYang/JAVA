@@ -1,0 +1,32 @@
+package spring.demo1;
+
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+/**
+ * Spring 的入门
+ * @author DELL
+ *
+ */
+public class SpringDemo1 {
+	
+	@Test
+	/*
+	 * 传统方法的调用
+	 */
+	public void demo1() {
+		UserDao userDao = new UserDaoImpl();
+		userDao.save();
+	}
+	
+	/**
+	 * Spring方式的调用
+	 */
+	public void demo2() {
+		//创建Spring的工厂
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+		UserDAO userDAO = (UserDAO) applicationContext.getBean("userDAO");
+		userDAO.save();
+	}
+}

@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="java.sql.SQLException"/>
-<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
-<fullyQualifiedTypeName name="banking.RegisterE"/>
 <fullyQualifiedTypeName name="banking.Empoyeelogin"/>
 <fullyQualifiedTypeName name="myJDBC.JDBCUtil"/>
 <fullyQualifiedTypeName name="com.mysql.jdbc.Statement"/>
@@ -51,7 +47,6 @@
 <fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.runtime.RuntimeUtil.ToStringAdapter"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.lang.Deprecated"/>
-<fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="test01.MyAnno01"/>
 <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
 <fullyQualifiedTypeName name="java.lang.annotation.Target"/>
@@ -60,4 +55,9 @@
 <fullyQualifiedTypeName name="decorator.GoogleCar"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Proxy"/>
 <fullyQualifiedTypeName name="java.lang.reflect.InvocationHandler"/>
+<fullyQualifiedTypeName name="org.springframework.core.env.SystemEnvironmentPropertySource"/>
+<fullyQualifiedTypeName name="spring.demo1.UserService"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="spring.demo1.UserDao"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
 </qualifiedTypeNameHistroy>
