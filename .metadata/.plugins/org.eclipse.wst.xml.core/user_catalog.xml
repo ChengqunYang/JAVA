@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <system systemId="http://www.springframework.org/schema/beans/spring-beans.xsd" uri="file:///C:/Users/DELL/Desktop/html%20and%20css/spring-framework-4.2.4.RELEASE-schema/beans/spring-beans-4.2.xsd"/>
+</catalog>
