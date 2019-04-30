@@ -6,7 +6,13 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 		
 		<!-- Spring入门的配置 -->
-		<bean id="UserDao" class="spring.demo1.UserDaoImpl"></bean>
+		<bean id="UserDao" class="spring.demo1.UserDaoImpl">
+			<property name="name" value="李明"></property>
 		
+		</bean>
+		
+        <!-- Spring的bean的声明周期的配置 -->
+        <bean id="CustomerDao" class="spring.demo2.CustomerDaoImpl" scope="prototype" init-method="setup" destroy-method="destroy">
         
+        </bean>
 </beans>

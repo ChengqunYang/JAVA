@@ -1,0 +1,7 @@
+package spring.demo2;
+
+import org.junit.Test;
+
+public class SpringDemo2 {
+	@Test
+}

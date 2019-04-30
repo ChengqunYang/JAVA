@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="banking.Empoyeelogin"/>
-<fullyQualifiedTypeName name="myJDBC.JDBCUtil"/>
 <fullyQualifiedTypeName name="com.mysql.jdbc.Statement"/>
 <fullyQualifiedTypeName name="dao.inter.UserDao"/>
 <fullyQualifiedTypeName name="dao.impl.DaoImpl"/>
@@ -57,7 +55,9 @@
 <fullyQualifiedTypeName name="java.lang.reflect.InvocationHandler"/>
 <fullyQualifiedTypeName name="org.springframework.core.env.SystemEnvironmentPropertySource"/>
 <fullyQualifiedTypeName name="spring.demo1.UserService"/>
-<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="spring.demo1.UserDao"/>
+<fullyQualifiedTypeName name="spring.demo2.CustomerDao"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 </qualifiedTypeNameHistroy>

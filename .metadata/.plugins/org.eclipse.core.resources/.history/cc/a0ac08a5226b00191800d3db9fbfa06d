@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+		
+		<!-- Spring入门的配置 -->
+		<bean id="UserDao" class="spring.demo1.UserDaoImpl">
+			<property name="name" value="李明"></property>
+		
+		</bean>
+		
+        <!-- Spring的bean的声明周期的配置 -->
+        <bean id="CustomerDao" class="spring.demo02.CustomerDaoImpl" init-method="init">
+        
+        </bean>
+</beans>

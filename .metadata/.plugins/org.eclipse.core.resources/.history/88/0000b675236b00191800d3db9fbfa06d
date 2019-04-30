@@ -1,0 +1,15 @@
+package spring.demo2;
+
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+
+public class SpringDemo2 {
+	
+	@Test
+	/**
+	 * 声明周期的配置
+	 */
+	public void demo1() {
+		ApplicationContext.class
+	}
+}

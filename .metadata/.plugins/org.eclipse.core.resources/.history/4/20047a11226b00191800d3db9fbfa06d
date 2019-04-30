@@ -1,0 +1,12 @@
+package spring.demo2;
+
+public class CustomerDaoImpl implements CustomerDao{
+
+	@Override
+	public void save() {
+
+		System.out.println("CustomerDaoImpl的save方法执行了");
+		
+	}
+
+}
