@@ -1,8 +1,0 @@
-package test02;
-
-public class UserDao {
-	public void addUser(){};
-	public void delUser(){};
-	public void uptUser(){};
-	public void getUser(){};
-}

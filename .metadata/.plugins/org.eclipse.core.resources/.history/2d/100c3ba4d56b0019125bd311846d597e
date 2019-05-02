@@ -1,0 +1,6 @@
+package spring.demo3;
+
+public class Car {
+	private String name;
+	private Double prive;
+}

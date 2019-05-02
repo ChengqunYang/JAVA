@@ -1,9 +1,0 @@
-package dynamicagent;
-
-import java.lang.reflect.Proxy;
-
-public class TestCar {
-	public static void main(String[] args) {
-		Proxy.newProxyInstance(loader, GoogleCar.class.getInterfaces(), h);
-	}
-}

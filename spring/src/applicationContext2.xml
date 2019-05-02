@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:p="http://www.springframework.org/schema/p"
+   	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd"> 
+        
+        <!-- Spring的集合属性的注入     -->
+ 
+        <bean id="collectionBean" class="spring.demo4.CollectionBean">
+               <!-- 注入数组类型 -->
+        	<property name="arrs" >
+				<list>
+				  <!-- 	<ref/> 引入对象类型 -->
+					<value>王东</value>   <!-- 引入一般类型 -->
+					<value>赵红</value>
+					<value>李冠希</value>
+				</list>
+        	</property>
+        	   <!-- 注入List集合类型 -->
+        	<property name="list" >
+				<list>
+				  <!-- 	<ref/> 引入对象类型 -->
+					<value>小明</value>   <!-- 引入一般类型 -->
+					<value>小红</value>
+					<value>小狗</value>
+				</list>
+        	</property>
+        	
+        	  <!-- 注入Set集合类型-->
+        	<property name="set" >
+				<set>
+				  <!-- 	<ref/> 引入对象类型 -->
+					<value>aaa</value>   <!-- 引入一般类型 -->
+					<value>bbb</value>
+					<value>ccc</value>
+				</set>
+        	</property>
+        	
+        	<!-- 注入Map集合 -->
+        	<property name="map">
+        		<map>
+        			<entry key="aaa" value="111"/>
+        			<entry key="bbb" value="222"/>
+        			<entry key="ccc" value="333"/>
+        		</map>
+        	</property>
+        	
+        </bean>
+        
+</beans>

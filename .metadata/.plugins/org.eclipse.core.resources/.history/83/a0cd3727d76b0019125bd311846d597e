@@ -1,0 +1,10 @@
+package spring.demo3;
+
+/**
+ * 属性注入的方式
+ * @author DELL
+ *
+ */
+public class SpringDemo3 {
+
+}

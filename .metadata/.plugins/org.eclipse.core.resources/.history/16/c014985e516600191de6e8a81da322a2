@@ -1,6 +1,0 @@
-package test01;
-
-public @interface MyAnno01 {
-	//在注解中定义一个属性
-	public long timeout() default -1;
-}

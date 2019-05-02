@@ -1,8 +1,0 @@
-package test02;
-
-//自定义注解,相当于Junit@Test
-public @interface MyTest {
-	//在MyTest注解中定义成员属性,默认值为-1
-	public long timeout() default -1;
-
-}

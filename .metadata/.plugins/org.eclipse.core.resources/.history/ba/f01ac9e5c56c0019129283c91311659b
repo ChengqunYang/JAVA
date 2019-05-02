@@ -1,0 +1,23 @@
+package spring.demo4;
+
+import java.util.Arrays;
+
+/**
+ * 集合属性的注入
+ * @author DELL
+ *
+ */
+public class CollectionBean {
+	private String[] arrs;
+
+	public void setArrs(String[] arrs) {
+		this.arrs = arrs;
+	}
+	
+	@Override
+	public String toString() {
+		return "CollectionBean [arrs=" + Arrays.toString(arrs) + "]";
+	}
+
+	
+}
