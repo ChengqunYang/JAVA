@@ -1,0 +1,17 @@
+package spring.demo1;
+
+import org.junit.Test;
+
+/**
+ * Spring的IOC的注解开发的测试类
+ * @author DELL
+ *
+ */
+public class SpringDemo1 {
+	
+	@Test
+	//传统方式
+	public void demo1(){
+		
+	}
+}

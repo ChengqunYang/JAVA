@@ -1,0 +1,19 @@
+package spring.demo2;
+
+import org.springframework.stereotype.Service;
+
+@Service("customerService")
+public class CustomerService {
+	
+	public void init(){
+		System.out.println("CustomerService被初始化了");
+	}
+	
+	public void save(){
+		System.out.println("Service的save方法执行了...");
+	}
+	
+	public void dstory(){
+		System.out.println("CustomerService被销毁了...");
+	}
+}

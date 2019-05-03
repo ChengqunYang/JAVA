@@ -1,0 +1,19 @@
+package spring.demo1;
+
+import org.springframework.stereotype.Component;
+
+/**
+ * 用户DAO的实现类
+ * @author DELL
+ *
+ */
+@Component(value="userDao")
+public class UserDaoImpl implements UserDao {
+
+	@Override
+	public void save() {
+		System.out.println("Dao中保存用户的方法执行了...");
+
+	}
+
+}
