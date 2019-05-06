@@ -1,0 +1,15 @@
+package spring.demo1;
+
+/**
+ * Cglib¶¯Ì¬´úÀí
+ * @author DELL
+ *
+ */
+
+public class CglibProxy {
+	
+	private CustomerDao customerDao;
+	public CglibProxy(CustomerDao customerDao){
+		this.customerDao = customerDao;
+	}
+}

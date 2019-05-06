@@ -1,0 +1,35 @@
+package spring.demo1;
+
+import org.springframework.cglib.proxy.Enhancer;
+import org.springframework.cglib.proxy.MethodInterceptor;
+
+/**
+ * Cglib动态代理
+ * @author DELL
+ *
+ */
+
+public class CglibProxy implements MethodInterceptor{
+	
+	private CustomerDao customerDao;
+	public CglibProxy(CustomerDao customerDao){
+		this.customerDao = customerDao;
+	}
+	
+	/**
+	 * 使用Cglib产生代理的方式
+	 * 
+	 */
+	public CustomerDao createProxy(){
+		//创建cglib的核心对象
+		Enhancer enhancer = new Enhancer();
+		//设置父类
+		enhancer.setSuperclass(customerDao.getClass());
+		//设置回调(类似InvocationHandler对象)
+		enhancer.setCallback(callback);
+		
+		
+		
+		return null;
+	}
+}

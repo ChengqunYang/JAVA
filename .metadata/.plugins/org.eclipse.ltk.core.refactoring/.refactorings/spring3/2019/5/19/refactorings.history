@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;spring.demo2.SpringDemo3&apos; to &apos;SpringDemo2&apos;&#x0D;&#x0A;- Original project: &apos;spring3&apos;&#x0D;&#x0A;- Original element: &apos;spring.demo2.SpringDemo3&apos;&#x0D;&#x0A;- Renamed element: &apos;spring.demo2.SpringDemo2&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SpringDemo3&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;spring.demo2{SpringDemo3.java[SpringDemo3" matchStrategy="1" name="SpringDemo2" qualified="false" references="true" similarDeclarations="false" stamp="1557141284007" textual="false" version="1.0"/>
+</session>

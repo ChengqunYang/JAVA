@@ -1,0 +1,10 @@
+package spring.demo2;
+
+/**
+ * 切面类:里面存放通知
+ * @author DELL
+ *
+ */
+public class MyAspectXML {
+
+}
