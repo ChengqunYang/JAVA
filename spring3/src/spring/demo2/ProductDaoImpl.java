@@ -16,12 +16,14 @@ public class ProductDaoImpl implements ProductDao {
 	@Override
 	public void find() {
 		System.out.println("查找商品...");
+		//int i = 1 / 0;
 
 	}
 
 	@Override
-	public void delete() {
+	public String delete() {
 		System.out.println("删除商品...");
+		return "小明";
 
 	}
 

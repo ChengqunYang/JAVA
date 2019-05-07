@@ -1,0 +1,13 @@
+package spring.demo1;
+
+/**
+ * 切面类:注解的切面类
+ * @author DELL
+ *
+ */
+public class MyAspectAnno {
+	
+	public void before(){
+		System.out.println("前置增强...");
+	}
+}

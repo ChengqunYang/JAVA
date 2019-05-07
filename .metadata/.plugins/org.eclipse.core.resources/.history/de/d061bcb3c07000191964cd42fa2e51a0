@@ -1,0 +1,19 @@
+package spring.demo1;
+
+import javax.annotation.Resource;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+/**
+ * Spring的AOP的注解开发
+ * @author DELL
+ */
+@RunWith(SpringJUnit4ClassRunner.class)
+public class SpringDemo1 {
+	@Test
+	public void demo1(){
+		
+	}
+}

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="SpringDemo1 (2)" project="spring3" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="spring.demo1.SpringDemo1" time="0.001">
-    <testcase name="demo1" classname="spring.demo1.SpringDemo1" time="0.001"/>
-  </testsuite>
-</testrun>
