@@ -44,7 +44,7 @@
 			<property name="location" value="classpath:jdbc.properties"></property>
 		</bean>	 -->
 		<!-- 第二种方式通过context标签引入 -->
-		<context:property-placeholder location="classpath:jdbc.properties"/>
+	 	<context:property-placeholder location="classpath:jdbc.properties"/>
 		
 	<!-- 配置C3P0连接池 -->
  		<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">

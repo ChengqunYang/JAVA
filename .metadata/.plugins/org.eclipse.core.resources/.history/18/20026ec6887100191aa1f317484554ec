@@ -1,0 +1,23 @@
+package tx.demo1;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+/**
+ * 这是转账的Dao的实现
+ * @author DELL
+ *
+ */
+public class AccountDaoImpl implements AccountDao{
+
+	private JdbcTemplate jdbcTemple;
+	@Override
+	public void outMoney(String from, Double money) {
+		
+	}
+
+	@Override
+	public void inMoney(String to, Double money) {
+		
+	}
+
+}

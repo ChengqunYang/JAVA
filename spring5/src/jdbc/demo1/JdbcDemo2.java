@@ -5,7 +5,6 @@ import java.sql.SQLException;
 import java.util.List;
 
 import javax.annotation.Resource;
-import javax.swing.tree.TreePath;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

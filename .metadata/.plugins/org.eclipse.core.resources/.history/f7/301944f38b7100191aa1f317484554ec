@@ -1,0 +1,10 @@
+package tx.demo1;
+
+/**
+ * 测试转账的环境
+ * @author DELL
+ *
+ */
+public class TxDemo1 {
+
+}

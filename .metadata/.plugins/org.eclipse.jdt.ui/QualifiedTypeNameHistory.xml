@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.swing.plaf.TextUI"/>
-<fullyQualifiedTypeName name="util.TextUtils"/>
-<fullyQualifiedTypeName name="org.apache.commons.dbutils.handlers.BeanListHandler"/>
-<fullyQualifiedTypeName name="domain.Student"/>
-<fullyQualifiedTypeName name="service.impl.StudentServiceImpl"/>
-<fullyQualifiedTypeName name="domain.PageBean"/>
-<fullyQualifiedTypeName name="org.apache.commons.dbutils.handlers.ScalarHandler"/>
-<fullyQualifiedTypeName name="dao.StudentDao"/>
-<fullyQualifiedTypeName name="service.StudentService"/>
 <fullyQualifiedTypeName name="util.JDBCUtil"/>
 <fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.runtime.RuntimeUtil.ToStringAdapter"/>
 <fullyQualifiedTypeName name="java.lang.Deprecated"/>
@@ -24,7 +15,6 @@
 <fullyQualifiedTypeName name="spring.demo1.UserService"/>
 <fullyQualifiedTypeName name="spring.demo1.UserDao"/>
 <fullyQualifiedTypeName name="spring.demo2.CustomerDao"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="com.sun.javafx.collections.MappingChange.Map"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
@@ -42,7 +32,6 @@
 <fullyQualifiedTypeName name="org.springframework.cglib.proxy.MethodInterceptor"/>
 <fullyQualifiedTypeName name="spring.demo1.CustomerDao"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
-<fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="java.lang.Throwable"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Aspect"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
@@ -54,10 +43,21 @@
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterThrowing"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.After"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Pointcut"/>
-<fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
 <fullyQualifiedTypeName name="org.springframework.jdbc.datasource.DriverManagerDataSource"/>
-<fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
-<fullyQualifiedTypeName name="org.springframework.test.context.junit4.SpringJUnit4ClassRunner"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="javax.swing.tree.RowMapper"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
+<fullyQualifiedTypeName name="jdbc.domain.Account"/>
+<fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.ForEach"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="tx.demo1.AccountService"/>
+<fullyQualifiedTypeName name="tx.demo1.AccountDao"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.support.JdbcDaoSupport"/>
 <fullyQualifiedTypeName name="org.springframework.test.context.ContextConfiguration"/>
 <fullyQualifiedTypeName name="javax.annotation.Resource"/>
+<fullyQualifiedTypeName name="org.junit.runners.Parameterized.UseParametersRunnerFactory"/>
+<fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+<fullyQualifiedTypeName name="org.springframework.test.context.junit4.SpringJUnit4ClassRunner"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
 </qualifiedTypeNameHistroy>
