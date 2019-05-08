@@ -1,0 +1,19 @@
+package jdbc.demo1;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+/**
+ * JDBC模板的使用
+ * @author DELL
+ *
+ */
+public class JdbcDemo1 {
+	
+	@Test
+	public void demo1(){
+		//创建连接池
+		
+		//创建jdbc模板
+		JdbcTemplate jdbcTemple = new JdbcTemplate(dataSource);
+	}
+}
