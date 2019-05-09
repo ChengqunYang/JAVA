@@ -1,9 +1,0 @@
-package spring.demo3;
-
-public class CarInfo {
-	private String name;
-
-	public String getName() {
-		return "ÈıÂÖ³µ";
-	}
-}

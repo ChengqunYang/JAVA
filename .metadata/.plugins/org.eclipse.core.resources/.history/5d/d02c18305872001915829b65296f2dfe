@@ -1,0 +1,25 @@
+package tx.demo1;
+
+public class AccountServiceImpl implements AccountService{
+	
+	//注入DAO
+	private AccountDao accountDao;
+	public void setAccountDao(AccountDao accountDao) {
+		this.accountDao = accountDao;
+	}
+	//注入事务管理的模板
+	private TransactionTemple transactionTemple;
+	@Override
+	/**
+	 * from:转出账号
+	 * to:转入账号
+	 * money:转账金额
+	 */
+	public void transfer(String from, String to, Double money) {
+		
+		accountDao.outMoney(from,money);
+		int d = 1/0;
+		accountDao.inMoney(to, money);
+	} 
+
+}
