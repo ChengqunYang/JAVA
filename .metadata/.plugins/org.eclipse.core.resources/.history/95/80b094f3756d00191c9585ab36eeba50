@@ -1,8 +1,0 @@
-package spring.demo2;
-
-public class CustomerService {
-	
-	public void sace(){
-		System.out.println("Service的save方法执行了...");
-	}
-}

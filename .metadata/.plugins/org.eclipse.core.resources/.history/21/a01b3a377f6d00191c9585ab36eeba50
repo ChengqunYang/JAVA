@@ -1,8 +1,0 @@
-package spring.demo3;
-
-public class ProductService {
-	
-	public void save(){
-		System.out.println("ProductService的save方法执行了...");
-	}
-}

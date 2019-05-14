@@ -11,6 +11,13 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 import domain.Account;
 
+/**
+ * QueryRunner queryRunner = new QueryRunner(dataSource);
+ * queryRunner.update();
+ * queryRunner.query();
+ * @author DELL
+ *
+ */
 public class TestDBUtils {
 	@Test
 	public void testInsert() throws SQLException {
