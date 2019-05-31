@@ -1,5 +1,0 @@
-package tx.demo1;
-
-public interface AccountService {
-
-}
