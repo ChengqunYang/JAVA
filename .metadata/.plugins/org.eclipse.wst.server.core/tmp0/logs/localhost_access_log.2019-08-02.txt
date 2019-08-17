@@ -1,0 +1,15 @@
+127.0.0.1 - - [02/Aug/2019:18:27:51 +0800] "GET / HTTP/1.1" 404 1036
+0:0:0:0:0:0:0:1 - - [02/Aug/2019:18:27:53 +0800] "GET /stu/ HTTP/1.1" 200 412
+0:0:0:0:0:0:0:1 - - [02/Aug/2019:18:28:25 +0800] "GET /stu/ HTTP/1.1" 200 412
+0:0:0:0:0:0:0:1 - - [02/Aug/2019:18:28:26 +0800] "GET /favicon.ico HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [02/Aug/2019:18:29:51 +0800] "GET /stu/StudentListServlet HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [02/Aug/2019:18:29:51 +0800] "GET /stu/StudentListServlet HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [02/Aug/2019:18:29:51 +0800] "GET /stu/StudentListServlet HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [02/Aug/2019:18:29:51 +0800] "GET /stu/StudentListServlet HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [02/Aug/2019:18:29:51 +0800] "GET /stu/StudentListPageServlet?currentPage=1 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [02/Aug/2019:18:30:47 +0800] "GET /stu/list_page.jsp HTTP/1.1" 200 1858
+0:0:0:0:0:0:0:1 - - [02/Aug/2019:18:30:51 +0800] "GET /stu/StudentListPageServlet?currentPage=1 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [02/Aug/2019:18:30:51 +0800] "GET /stu/StudentListPageServlet?currentPage=1 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [02/Aug/2019:18:31:14 +0800] "GET /stu/StudentListPageServlet?currentPage=1 HTTP/1.1" 200 3493
+127.0.0.1 - - [02/Aug/2019:18:33:52 +0800] "GET / HTTP/1.1" 404 1036
+0:0:0:0:0:0:0:1 - - [02/Aug/2019:18:33:53 +0800] "GET /annotation/ HTTP/1.1" 404 1047

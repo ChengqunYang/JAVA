@@ -1,0 +1,24 @@
+package text2;
+
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class CountString {
+	public static void main(String[] args) {
+		//1.使用scanner获取用户输入的字符串
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入一个字符串");
+		String str = sc.next();
+		//2.创建Map集合,key是字符串中的字符,value是字符的个数
+		HashMap<Character,Integer> map = new HashMap<>();
+		//3.遍历字符串,获取每一个字符
+		for (char c : str.toCharArray()) {
+			//key存在
+			Integer value = map.get(c);
+			value++;
+			map.put(c, value);
+			
+		}
+	}
+
+}

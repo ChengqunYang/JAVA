@@ -79,4 +79,14 @@
     <servlet-name>StudentListPageServlet</servlet-name>
     <url-pattern>/StudentListPageServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>hhh</display-name>
+    <servlet-name>hhh</servlet-name>
+    <servlet-class>servlet.hhh</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>hhh</servlet-name>
+    <url-pattern>/hhh</url-pattern>
+  </servlet-mapping>
 </web-app>

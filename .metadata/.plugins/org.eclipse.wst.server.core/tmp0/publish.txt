@@ -1,8 +1,13 @@
 #Tomcat publish data
-#Thu Jun 27 14:37:18 CST 2019
-org.eclipse.jst.jee.server\:annotation=D\:\\\u8F6F\u4EF6\u5927\u5168\\eclipse\\apache-tomcat-7.0.93\\wtpwebapps\\annotation
-org.eclipse.jst.jee.server\:stu=D\:\\\u8F6F\u4EF6\u5927\u5168\\eclipse\\apache-tomcat-7.0.93\\wtpwebapps\\stu
-org.eclipse.jst.jee.server\:ajax=D\:\\\u8F6F\u4EF6\u5927\u5168\\eclipse\\apache-tomcat-7.0.93\\wtpwebapps\\ajax
-org.eclipse.jst.jee.server\:designMode=D\:\\\u8F6F\u4EF6\u5927\u5168\\eclipse\\apache-tomcat-7.0.93\\wtpwebapps\\designMode
-org.eclipse.jst.jee.server\:helloWeb=D\:\\\u8F6F\u4EF6\u5927\u5168\\eclipse\\apache-tomcat-7.0.93\\wtpwebapps\\helloWeb
-org.eclipse.jst.jee.server\:helloServlet=D\:\\\u8F6F\u4EF6\u5927\u5168\\eclipse\\apache-tomcat-7.0.93\\wtpwebapps\\helloServlet
+#Fri Aug 02 18:42:12 CST 2019
+org.eclipse.jst.jee.server\:helloServlet=D\:\\tomcat\\apache-tomcat-7.0.93\\wtpwebapps\\helloServlet
+org.eclipse.jst.jee.server\:spring=D\:\\tomcat\\apache-tomcat-7.0.93\\wtpwebapps\\spring
+org.eclipse.jst.jee.server\:designMode=D\:\\tomcat\\apache-tomcat-7.0.93\\wtpwebapps\\designMode
+org.eclipse.jst.jee.server\:annotation=D\:\\tomcat\\apache-tomcat-7.0.93\\wtpwebapps\\annotation
+org.eclipse.jst.jee.server\:ajax=D\:\\tomcat\\apache-tomcat-7.0.93\\wtpwebapps\\ajax
+org.eclipse.jst.jee.server\:stu=D\:\\tomcat\\apache-tomcat-7.0.93\\wtpwebapps\\stu
+org.eclipse.jst.jee.server\:helloWeb=D\:\\tomcat\\apache-tomcat-7.0.93\\wtpwebapps\\helloWeb
+org.eclipse.jst.jee.server\:spring5=D\:\\tomcat\\apache-tomcat-7.0.93\\wtpwebapps\\spring5
+org.eclipse.jst.jee.server\:spring4=D\:\\tomcat\\apache-tomcat-7.0.93\\wtpwebapps\\spring4
+org.eclipse.jst.jee.server\:spring3=D\:\\tomcat\\apache-tomcat-7.0.93\\wtpwebapps\\spring3
+org.eclipse.jst.jee.server\:spring2=D\:\\tomcat\\apache-tomcat-7.0.93\\wtpwebapps\\spring2

@@ -1,4 +1,4 @@
-package impl;
+package dao.impl;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

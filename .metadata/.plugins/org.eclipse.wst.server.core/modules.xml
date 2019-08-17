@@ -6,4 +6,5 @@
   <module moduleId="org.eclipse.jst.jee.server:ajax" serverId="Tomcat v7.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:designMode" serverId="Tomcat v7.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:stu" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:annotation" serverId="Tomcat v7.0 Server at localhost"/>
 </modules>
